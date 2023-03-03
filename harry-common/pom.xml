@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.harry</groupId>
+        <artifactId>harry</artifactId>
+        <version>3.6.2</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>harry-common-log</module>
+        <module>harry-common-core</module>
+        <module>harry-common-redis</module>
+        <module>harry-common-seata</module>
+        <module>harry-common-swagger</module>
+        <module>harry-common-security</module>
+        <module>harry-common-datascope</module>
+        <module>harry-common-datasource</module>
+    </modules>
+
+    <artifactId>harry-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        harry-common通用模块
+    </description>
+
+</project>

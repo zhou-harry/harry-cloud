@@ -1,0 +1,2 @@
+com.harry.common.log.service.AsyncLogService
+com.harry.common.log.aspect.LogAspect
